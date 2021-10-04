@@ -18,7 +18,7 @@ def findCorrelation(datasource):
     print("Correlation between Size of Tv and Average time spent watching Tv in a week :-  \n--->",correlation[0,1])
 
 def setup():
-    data_path  = "./data/Size of TV,	Average time spent watching TV in a week (hours).csv"
+    data_path  = r"C:\Users\tvkat\OneDrive\Desktop\visual studio classwork\correlation-master\data\Size of TV,_Average time spent watching TV in a week (hours).csv"
 
     datasource = getDataSource(data_path)
     findCorrelation(datasource)

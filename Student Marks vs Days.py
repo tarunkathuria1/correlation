@@ -18,7 +18,7 @@ def findCorrelation(datasource):
     print("Correlation between Marks in percentage and Days present :-  \n--->",correlation[0,1])
 
 def setup():
-    data_path  = "./data/Student Marks vs Days Present.csv"
+    data_path  = r"C:\Users\tvkat\OneDrive\Desktop\visual studio classwork\correlation-master\data\Student Marks vs Days Present.csv"
 
     datasource = getDataSource(data_path)
     findCorrelation(datasource)
